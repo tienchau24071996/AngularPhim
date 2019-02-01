@@ -1,0 +1,30 @@
+.tinTuc{
+    
+    .row--list--m{
+            margin:0 30px;
+            padding: 20px 0;
+     }
+
+    .item{
+        display: flex;
+        padding-bottom:10px;
+        .item__param{
+            padding-left: 10px;
+            
+            ul{
+                list-style: none;
+                li{
+                    display: inline;
+                }
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+       
+
+    }
+
+
+
+}

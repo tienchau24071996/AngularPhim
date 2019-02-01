@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+ }
 
 .navbar {
   padding: 20px 10%; }
@@ -88,5 +89,37 @@
 .carousel-item img {
   width: 100%;
   height: 100%; }
+
+#listPhim .row--list--m {
+  margin: 0 30px; }
+#listPhim .row--list--p {
+  padding: 20px 0; }
+
+.tinTuc .row--list--m {
+  margin: 0 30px;
+  padding: 20px 0; }
+.tinTuc .item {
+  display: flex;
+  padding-bottom: 10px; }
+  .tinTuc .item .item__param {
+    padding-left: 10px; }
+    .tinTuc .item .item__param ul {
+      list-style: none; }
+      .tinTuc .item .item__param ul li {
+        display: inline; }
+    .tinTuc .item .item__param p {
+      font-size: 14px; }
+
+.khuyenMai {
+  padding-bottom: 2rem; }
+  .khuyenMai .khuyenMai__title .row--list--m {
+    margin: 0 30px;
+    padding: 20px 0; }
+  .khuyenMai .khuyenMai__img .row--list--m {
+    margin: 0 30px; }
+
+.footer {
+  height: 80px;
+  background-color: #afafb1; }
 
 /*# sourceMappingURL=style.css.map */
