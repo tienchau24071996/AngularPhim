@@ -1,0 +1,76 @@
+.navbar{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    font-size:20px;
+    
+    .btn--navbar{
+        background-color: #BD1B49;
+        color:$color-white;
+        
+    }
+}
+.changeNav{
+    background-image: url(../../img/menu-bar.png);
+    width: 100%;
+    height: auto;
+    background-position: 0 0;
+    background-size: 100% 160%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9;
+}   
+.fa-search{
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    right:-30%;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    p{
+        color:white;
+        font-size: 20px;
+        position: absolute;
+        top:50px;
+        left:10%;
+
+    }
+}
+.active {
+    right:0;
+}
+.toggle{
+    position: absolute;
+    
+    top: 20px;
+    right:5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fa-times{
+        font-size:20px;
+        &:hover{
+            color:#BD1B49!important;
+        }
+    }
+}
+

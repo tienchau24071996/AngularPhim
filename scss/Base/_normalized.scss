@@ -1,0 +1,25 @@
+.navbar{
+    .navbar-brand{
+        color:#ffff;
+        font-size:20px;
+        &:hover{
+            color:#820EB0;
+        }
+    }
+    
+    padding: 20px 10%;
+    .navbar-nav{
+        .nav-link{
+            padding-right: 1rem;
+            color:#ffff;
+            padding-left: 1rem;
+        }
+    }
+    
+}
+
+
+
+.navbar-toggler {
+    border-color: rgb(243, 241, 242);
+}
