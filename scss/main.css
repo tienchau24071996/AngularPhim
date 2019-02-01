@@ -1,92 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif; }
+@import "Base/_reset.scss";
+@import "Base/_normalized.scss";
 
-.navbar {
-  padding: 20px 10%; }
-  .navbar .navbar-brand {
-    color: #ffff;
-    font-size: 20px; }
-    .navbar .navbar-brand:hover {
-      color: #820EB0; }
-  .navbar .navbar-nav .nav-link {
-    padding-right: 1rem;
-    color: #ffff;
-    padding-left: 1rem; }
+@import "Helpers/_variable.scss";
+@import "Helpers/_mixin.scss";
+@import "Helpers/_extend.scss";
+@import "Helpers/_animation.scss";
 
-.navbar-toggler {
-  border-color: #f3f1f2; }
+@import "Layout/_navBar.scss";
+@import "Layout/_slider.scss";
 
-.navbar {
-  position: absolute;
-  z-index: 3;
-  width: 100%;
-  font-size: 20px; }
-  .navbar .btn--navbar {
-    background-color: #BD1B49;
-    color: white; }
-
-.changeNav {
-  background-image: url(../../img/menu-bar.png);
-  width: 100%;
-  height: auto;
-  background-position: 0 0;
-  background-size: 100% 160%;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9; }
-
-.fa-search {
-  cursor: pointer; }
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  z-index: 10;
-  right: -30%;
-  width: 30%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s; }
-  .sidebar p {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50px;
-    left: 10%; }
-
-.active {
-  right: 0; }
-
-.toggle {
-  position: absolute;
-  top: 20px;
-  right: 5px;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .toggle .fa-times {
-    font-size: 20px; }
-    .toggle .fa-times:hover {
-      color: #BD1B49 !important; }
-
-.carousel-item img {
-  width: 100%;
-  height: 100%; }
-
-/*# sourceMappingURL=main.css.map */
